@@ -2,52 +2,17 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>실습1</title>
+<title>로그인폼</title>
 </head>
 <body>
-<h1>라디오 박스 실습</h1>
-<hr>
-<p>웹프로그래밍특론의 교수는 누구인가요?</p><br>
-<form>
-  <input type="radio" name="name" value="1">이우선
-  <input type="radio" name="name" value="2">우용태
-  <input type="radio" name="name" value="3">정성환
-  <input type="radio" name="name" value="4">이수현
-  <input type="radio" name="name" value="5">차정원
-  <input type="radio" name="name" value="6">정성욱
-  <input type="radio" name="name" value="7">안동혁
-  <input type="radio" name="name" value="8">강동현
-<hr>
-<details>
-  <summary>강동현</summary>
-  <p>이메일:donghyun@changwon.ac.kr</p></details>
-<hr>
-  <span style="color:red">과목명</span><br>
-  <mark>웹프로그래밍특록</mark><br>
-  <mark>학습 진도<time>(40/100)</time><progress value="4" max="10"></progress></mark><br>
-<hr>
-<h2>버튼을 만들자 </h2>
+<h3>로그인 폼</h3>
 <hr>
 <form>
-  <input type="button" value="1">
-  <input type="button" value="2">
-  <input type="button" value="3"><br>
-  <input type="button" value="4">
-  <input type="button" value="5">
-  <input type="button" value="6"><br>
-  <input type="button" value="7">
-  <input type="button" value="8">
-  <input type="button" value="0">
-  </form>
-<hr>
-<h3> 나만의 검색폼.</h3>
-<hr>
-<mark>검색할 단어를 입력 하세요( 최대 길이는 10 문자 입니다).</mark><br>
-<form name="sform"
-      action="https://search.naver.com/search.naver"
-      method="get">
-      네이버 검색:<input name="query" type="text"><br>
-      <input type="submit" value="검색">
-</form>
+  <fieldset>
+  <legend>Login</legend>
+  <label>Username<input type="text"></label>&nbsp;
+  <label>Password<input type="password"></label>
+  </fieldset>
+<form>
 </body>
 </html>
