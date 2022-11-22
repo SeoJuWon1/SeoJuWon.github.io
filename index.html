@@ -1,70 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>HTML5 Basic Page</title>
-	<style>
-		*{
-			margin: 0; padding: 0;
-			font-family: ' 맑은고딕', 'Malgun Gothic', Gothic, sans-serif;
-		}
-		a { text-decoration: none; }
-		li { list-style: none; }
-	</style>
-	<!-- 기본 클래스 -->
-	<style>
-		.pull-left { float: left; }
-		.pull-right { float: right; }
-	</style>
-	<!-- 2.페이지 구성하기 -->
-	<style>
-		body {
-			width: 960px; margin: 0 auto;
-			background: #E6E6E6;
-		}
-
-		#page-wrapper {
-			background: white;
-			margin: 40px 0; padding: 10px 20px;
-			border-radius: 5px;
-			box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-		}
-	</style>
-	<!-- 3. 헤더 구성하기 -->
-	<style>
-		#main-header { padding: 40px 50px; }
-		.master-title { 
-		font-size: 30px;
-		color: #181818;
-		}
-		.master-description {
-			font-size: 15px; font-weight: 500;
-			color: #383838;
-		}
-	</style>
-	<!-- 4. 내비게이션 및 풀다운 메뉴 구성하기 -->
-	<style>
-		#main-navigation {
-			border-top: 1px solid #C8C8C8;
-			border-bottom: 1px solid #C8C8C8;
-			margin-bottom: 20px;
-			height: 40px;
-		}
-
-		.outer-menu-item {
-			float: left;
-			position: relative;
-		}
-		.outer-menu-item:hover {
-			background: black;
-			color: white;
-		}
-
-		.menu-title {
-			display: block;
-			height: 30px; line-height: 30px;
-			text-align: center;
-			padding: 5px 20px;
-		} 
+<title>HTML5 Basic Page</title>
+<style>
+*{margin: 0; padding: 0;font-family: ' 맑은고딕', 'Malgun Gothic', Gothic, sans-serif;}
+a { text-decoration: none; }
+li { list-style: none; }
+</style>
+<!-- 기본 클래스 -->
+<style>
+.pull-left { float: left; }
+.pull-right { float: right; }
+</style>
+<!-- 2.페이지 구성하기 -->
+<style>
+body {width: 960px; margin: 0 auto;background: #E6E6E6;}
+#page-wrapper {
+	background: white;
+	margin: 40px 0; padding: 10px 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);}
+</style>
+<!-- 3. 헤더 구성하기 -->
+<style>
+#main-header { padding: 40px 50px; }
+.master-title {font-size: 30px;color: #181818;}
+.master-description {font-size: 15px; font-weight: 500;	color: #383838;}
+</style>
+<!-- 4. 내비게이션 및 풀다운 메뉴 구성하기 -->
+<style>
+#main-navigation {
+	border-top: 1px solid #C8C8C8;
+	border-bottom: 1px solid #C8C8C8;
+	margin-bottom: 20px;
+	height: 40px;}
+.outer-menu-item {float: left;position: relative;}
+.outer-menu-item:hover {background: black;color: white;}
+.menu-title {
+	display: block;
+	height: 30px; line-height: 30px;
+	text-align: center;
+	padding: 5px 20px;} 
 
 		.inner-menu {
 			display: none;
