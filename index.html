@@ -25,7 +25,7 @@ body {width: 960px; margin: 0 auto;background: #E6E6E6;}
 <style>
 #main-header { padding: 40px 50px; }
 .master-title {font-size: 30px;color: #181818;}
-.master-description {font-size: 15px; font-weight: 500;	color: #383838;}
+.master-description {font-size: 15px; font-weight: 500;	color: #FF0000;}
 </style>
 <!-- 4. 내비게이션 및 풀다운 메뉴 구성하기 -->
 <style>
@@ -119,36 +119,32 @@ article {
 	font-weight: 500;
 	padding-bottom: 10px;
 	}
-				.article-date { font-size: 13px; }
-				.article-body {
-					font-size: 14px;
-				}
-			</style>
-			<!-- 6. 분문 추가하기(사이드 메뉴) -->
-			<style>
-				.aside-list { padding: 10px 0 30px 0; }
-				.aside-list > h3 {
-					font-size: 15px;
-					font-weight: 600;
-				}
-				.aside-list li a {
-					margin-left: 8px;
-					font-size: 13px;
-					color: #6C6C6C;
-				}
-			</style>
+.article-date { font-size: 13px; }
+.article-body { font-size: 14px; }
+</style>
+<!-- 6. 분문 추가하기(사이드 메뉴) -->
+<style>
+.aside-list { padding: 10px 0 30px 0; }
+.aside-list > h3 {
+	font-size: 15px;
+	font-weight: 600;
+	}
+.aside-list li a {
+	margin-left: 8px;
+	font-size: 13px;
+	color: #6C6C6C;
+	}
+</style>
 
-			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
-			<script>
-				$(document).ready(function() {
-					$('.outer-menu-item').hover(function(){
-						$(this).find('.inner-menu').show();
-					}, function() {
-						$(this).find('.inner-menu').hide();
-					});
-				});
-			</script>
+<script>
+$(document).ready(function() {
+	$('.outer-menu-item').hover(function(){
+		$(this).find('.inner-menu').show();
+	}, function() { $(this).find('.inner-menu').hide(); });
+});
+</script>
 
 
 </head>
@@ -157,110 +153,108 @@ article {
 
 
 <body>
-	<div id = "page-wrapper">
+<div id = "page-wrapper">
 
-		<header id="main-header">
-			<hgroup>
-				<h1 class="master-title"><a href="2차과제.html">컴퓨터공학과 서주원</a></h1>
-				<h2 class="master-description">계획 및 나에 관해서</h2>
-			</hgroup>
-		</header>
+<header id="main-header">
+<hgroup>
+<h1 class="master-title"><a href="index.html">Seo Ju Won</a></h1>
+<h2 class="master-description">About me</h2>
+</hgroup>
+</header>
 	
-		<nav id ="main-navigation">
-			<div class="pull-left">
-				<ul class="outer-menu">
+<nav id ="main-navigation">
+<div class="pull-left">
+<ul class="outer-menu">
 
-					<li class="outer-menu-item">
-						<span class="menu-title">읽을 책</span>
-						<ul class="inner-menu">
-							<li class="inner-menu-item"><a href="자기개발.html">자기개발</a></li>
-						</ul>
-					</li>
+<li class="outer-menu-item">
+<span class="menu-title">프로필</span>
+<ul class="inner-menu">
+<li class="inner-menu-item"><a href="profile.html">프로필</a></li>
+</ul>
+</li>
 
-					<li class="outer-menu-item">
-						<span class="menu-title">미래 계획</span>
-						<ul class="inner-menu">
-							<li class="inner-menu-item"><a href="학점계획.html">학점계획</a></li>
-							<li class="inner-menu-item"><a href="진학계획.html">진학계획</a></li>
+<li class="outer-menu-item">
+<span class="menu-title">미래 계획</span>
+<ul class="inner-menu">
+<li class="inner-menu-item"><a href="학점계획.html">학점계획</a></li>
+<li class="inner-menu-item"><a href="진학계획.html">진학계획</a></li>
+</ul>
+</li>
 
-						</ul>
-					</li>
+<li class="outer-menu-item">
+<span class="menu-title">운동 계획</span>
+<ul class="inner-menu">
+<li class="inner-menu-item"><a href="식단.html">식단</a></li>
+<li class="inner-menu-item"><a href="운동.html">운동</a></li>
+</ul>
+</li>
 
-					<li class="outer-menu-item">
-						<span class="menu-title">운동 계획</span>
-						<ul class="inner-menu">
-							<li class="inner-menu-item"><a href="식단.html">식단</a></li>
-							<li class="inner-menu-item"><a href="운동.html">운동</a></li>
-						</ul>
-					</li>
+</ul>
 
-				</ul>
+</div>
 
-			</div>
+<div class="pull-right">
+<div class="search-bar">
+<form>
+<input type="text" class="input-search"/>
+<input type="submit" class="input-search-submit" value="검색" />
+</form>
+</div>
+</div>
 
-			<div class="pull-right">
-				<div class="search-bar">
-					<form>
-						<input type="text" class="input-search"/>
-						<input type="submit" class="input-search-submit" value="검색" />
-					</form>
-				</div>
-			</div>
-
-		</nav>
+</nav>
 	
-		<div id="content">
-			<section id="main-section">
+<div id="content">
+<section id="main-section">
 
-				<article>
+<article>
 					
-					<div class="article-header">
-						<h1 class="article-title">나에 대하여</h1>
-						<p class="article-date">2022년 11월 15일</p>
-					</div>
+<div class="article-header">
+<h1 class="article-title">나에 대하여</h1>
+<p class="article-date">2022년 11월 15일</p>
+</div>
 
-					<div class="article-body">
-						<img src="human.png" alt="사진">
-						<br>
-						<br>
-						<p>서주원</p>
-						<br>
-						<p>sjw6315@naver.com</p>
+<div class="article-body">
+<img src="human.png" alt="사진">
+<br>
+<br>
+<p>서주원</p>
+<br>
+<p>sjw6315@naver.com</p>
 
-					</div>
+</div>
+</article>
 
-				</article>
-
-			</section>
-			<aside id="main-aside">
+</section>
+<aside id="main-aside">
 				
-				<div class="aside-list">
-					<h3>카테고리</h3>
-					<ul>
-						<li><a href="자기개발.html">-자기개발</a></li>
-						<li><a href="학점계획.html">-학점계획</a></li>
-						<li><a href="진학계획.html">-진학계획</a></li>
-						<li><a href="식단.html">-식단계획</a></li>
-						<li><a href="운동.html">-운동계획</a></li>
-					</ul>
-				</div>
+<div class="aside-list">
+<h3>카테고리</h3>
+<ul>
+<li><a href="자기개발.html">-자기개발</a></li>
+<li><a href="학점계획.html">-학점계획</a></li>
+<li><a href="진학계획.html">-진학계획</a></li>
+<li><a href="식단.html">-식단계획</a></li>
+<li><a href="운동.html">-운동계획</a></li>
+</ul>
+</div>
 
-				<div class="aside-list">
-					<h3>최근 글</h3>
-					<ul>
-						<li><a href="학점계획.html">-학점계획에 대하여</a></li>
-						<li><a href="식단.html">식단에 대하여</a></li>
-						<li><a href="자기개발.html">자기개발 책에 관하여</a></li>
-					</ul>
-				</div>
-			</aside>			
-		</div>
+<div class="aside-list">
+<h3>최근 글</h3>
+<ul>
+<li><a href="학점계획.html">-학점계획에 대하여</a></li>
+<li><a href="식단.html">식단에 대하여</a></li>
+<li><a href="자기개발.html">자기개발 책에 관하여</a></li>
+</ul>
+</div>
+</aside>			
+</div>
 	
-		<footer id="main-footer">
-			<a href="#">Seojuwon_homepage</a>
-		</footer>
+<footer id="main-footer">
+<a href="#">Seojuwon_homepage</a>
+</footer>
 
-	</div>
+</div>
 
 </body>
 
