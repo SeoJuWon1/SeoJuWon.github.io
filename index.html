@@ -33,7 +33,8 @@ body {width: 960px; margin: 0 auto;background: #E6E6E6;}
 	border-top: 1px solid #C8C8C8;
 	border-bottom: 1px solid #C8C8C8;
 	margin-bottom: 20px;
-	height: 40px;}
+	height: 40px;
+	}
 .outer-menu-item {float: left;position: relative;}
 .outer-menu-item:hover {background: black;color: white;}
 .menu-title {
@@ -43,7 +44,7 @@ body {width: 960px; margin: 0 auto;background: #E6E6E6;}
 	padding: 5px 20px;
 	} 
 .inner-menu {
-	display: none;
+	display: hidden;
 	position: absolute;
 	top: 40px; left:0;
 	width: 100%;
@@ -51,13 +52,13 @@ body {width: 960px; margin: 0 auto;background: #E6E6E6;}
 	background: white;
 	box-shadow: 0 2px 6px rgba(5, 5, 5, 0.9);
 	z-index: 1000;
-	text-align: center
+	text-align: center;
 	}
 
 .inner-menu-item > a {
 	display: block;
 	padding: 5px 10px;
-	color: black
+	color: black;
 	}
 .inner-menu-item > a:hover {background: black;color: white;}
 </style>
@@ -176,16 +177,16 @@ $(document).ready(function() {
 <li class="outer-menu-item">
 <span class="menu-title">HOBBY</span>
 <ul class="inner-menu">
-<li class="inner-menu-item"><a href="circuit.html">curcuit</a></li>
-<li class="inner-menu-item"><a href="detailing.html">detailing</a></li>
+<li class="inner-menu-item"><a href="/circuit.html">curcuit</a></li>
+<li class="inner-menu-item"><a href="/detailing.html">detailing</a></li>
 </ul>
 </li>
 
 <li class="outer-menu-item">
 <span class="menu-title">PORTFOLIO</span>
 <ul class="inner-menu">
-<li class="inner-menu-item"><a href="resume.html">resume</a></li>
-<li class="inner-menu-item"><a href="project.html">project</a></li>
+<li class="inner-menu-item"><a href="/resume.html">resume</a></li>
+<li class="inner-menu-item"><a href="/project.html">project</a></li>
 </ul>
 </li>
 
