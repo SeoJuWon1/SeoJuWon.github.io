@@ -19,19 +19,30 @@ body {width: 960px; margin: 0 auto;background: #E6E6E6;}
 	background: white;
 	margin: 40px 0; padding: 10px 20px;
 	border-radius: 5px;
-	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);}
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+}
+.abi {
+	width: 920px;
+	height: 120px;
+	background-image: url('https://blog.kakaocdn.net/dn/ptvKP/btq9XbR6WK3/VhrIkBkgtuXtqDrnkCpp1K/img.jpg');
+	background-position: left;
+	animation: abi 7s infinite;
+}
+@keyframes abi {
+     50% {background-position: right;}
+}
 </style>
 <!-- 3. 헤더 구성하기 -->
 <style>
-#main-header { padding: 40px 50px; }
-.master-title {font-size: 30px;color: #181818;}
-.master-description {font-size: 15px; font-weight: 500;	color: #FF0000;}
+#main-header { padding: 50px 60px; }
+.master-title {font-size: 30px;color: #000000;line-height : 20px;}
+.master-description {font-size: 18px; font-weight: 500;	color: #000000;}
 </style>
 <!-- 4. 내비게이션 및 풀다운 메뉴 구성하기 -->
 <style>
 #main-navigation {
-	border-top: 1px solid #C8C8C8;
-	border-bottom: 1px solid #C8C8C8;
+	border-top: 5px solid #000000;
+	border-bottom: 5px solid #000000;
 	margin-bottom: 20px;
 	height: 40px;
 	}
@@ -153,13 +164,14 @@ $(document).ready(function() {
 
 <body>
 <div id = "page-wrapper">
-
+<div  class="abi">
 <header id="main-header">
 <hgroup>
 <h1 class="master-title"><a href="index.html">Seo Ju Won</a></h1>
 <h2 class="master-description">About me</h2>
 </hgroup>
 </header>
+</div>
 	
 <nav id ="main-navigation">
 <div class="pull-left">
@@ -209,18 +221,35 @@ $(document).ready(function() {
 <article>
 					
 <div class="article-header">
-<h1 class="article-title">INFORMATION</h1>
-<p class="article-date">2022년 12월 06일</p>
+<h1 class="article-title">Project</h1>
 </div>
 
 <div class="article-body">
-<img src="human.png" alt="사진">
 <br>
 <br>
-<p>서주원</p>
-<br>
-<p>sjw6315@naver.com</p>
-
+<h3>인적 사항</h3>
+<p> 이름 : 서주원 </p>
+<p> 성별 : 남 </p>
+<p> 생년월일 : 1996년, 05월, 06일 (만26세)</p>
+<p> 이메일 : sjw6315@naver.com </p>
+<hr>
+<h3>학력</h3>
+<p> (대학원)창원대학교 산업대학원 재학중(2022년 09월 ~ 현재) </p>
+<p> (대학교)신라대학교 역사문화학과 졸업(2015년 03월 ~ 2022년 02월) </p>
+<p> (대학교)신라대학교 소프웨어융합 전공 졸업(학생설계전공)(2015년 03월 ~ 2022년 02월) </p>
+<p> (고등학교)마산용마고등학교 졸업(2012년 03월  ~  2015년 02월)</p>
+<hr>
+<h3>교육 사항</h3>
+<p> 동양직업전문학교 - 기계요소 설계 향상(CAD)(1개월) </p>
+<p> 경남테크노파크 - 인공지능 알고리즘의 이론적 기초(2020년 07월 13일 ~ 2020년 09월 24일(160시간)) </p>
+<hr>
+<h3>기술</h3>
+<p> python - 기초 </p>
+<p> JAVA - 기초 </p>
+<p> C - 기초 </p>
+<p> 웹 프로그래밍 - 기초 </p>
+<p> AWS - 기초 </p>
+<p> 시스코 패킷 트레이서 - 기초 </p>
 </div>
 </article>
 
